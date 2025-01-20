@@ -158,15 +158,23 @@ background-color:black;
     font-size: 2.87rem;
     font-weight: bold;
    text-align: center;
+   margin-bottom: 0px;
 }
 .hpart2{
+    max-width: 80%;
     display: flex;
+    gap:25px;
     justify-content: center;
-    align-items: center;
+   margin:0 auto;
+   margin-top: 100px;
 }
 .cards{
-    max-width: 367px;
+    
     text-align: center;
+   
+    border:none;
+    border-radius: 10px;
+    
 }
 .cards p{
     color: #838383;
@@ -176,6 +184,7 @@ font-size: 0.94rem;
     color:black;
     font-size:1.5rem;
     font-weight: bold;
+    
 }
 #card1 span{
     color:#6ccbff;
@@ -193,5 +202,70 @@ font-size: 0.94rem;
     font-size: 0.9rem;
 }
 #card1{
-    background:linear-gradient(180deg)
+    background:linear-gradient(#def3fc,#f5fcff,#ffffff)
+}
+#card2{
+    max-width: 367px;
+    max-height: 481.5px;
+    background:linear-gradient(#fcf2dc,#fffbf2,#ffffff);
+  
+}
+#card3{
+    bcakground:linear-gradient(#eee3fd,#faf6ff,#ffffff);
+}
+
+
+
+
+
+/* Footer */
+.footer{
+    max-width: 100%;
+    background-color:#01acfd ;
+    display: flex;
+    gap:200px;
+    
+}
+#fid1{
+    max-width: 399px;
+  
+}
+#logo img{
+    max-width: 82px;
+    max-height: 81px;
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+#logo h3{
+    color:white;
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+#logo img{
+    widht:100%;
+}
+#fid1 p{
+    max-width: 399px;
+    max-height: 100px;
+}
+#fid2 h3{
+    color:white;
+}
+.fcl1{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.sm{
+    color:white;
+    text-decoration: none;
+}
+#fid3 h3{
+    color:white;
+}
+.logos{
+    display: flex;
+    gap:5px;
 }
