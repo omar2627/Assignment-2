@@ -272,6 +272,7 @@ font-size: 0.94rem;
 .story h3{
 font-size: 1.5rem;
 font-weight: bold;
+padding: 20px;
 }
 .story p{
 font-size: 0.9rem;
@@ -283,16 +284,22 @@ width: 136px;
 padding:10px;
 display: inline-block;
 }
-.stories{
+.als{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+.stories{
     display:grid;
     grid-template-areas: 
     "story1 story1 story2 story3"
     "story1 story1 story4 story5"
     ;
+    padding-bottom: 30px;
    gap:1.2rem;
-   padding-bottom: 100px;
-   
+  margin: 0 auto;
+   width:80%;
 }
 .story1{
     grid-area:story1;
@@ -309,7 +316,75 @@ display: inline-block;
 .story5{
     grid-area:story5;
 }
-
+.bta button{
+    background-color: black;
+  
+}
+.scl1{
+    display: inline-block;
+    margin-top: -20px;
+    margin-left: auto;
+    background: #3cd8e8;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 3.1rem;
+    position: relative;
+    top: -1.2rem;
+    left: 1rem;
+}
+.scl2{
+    display: inline-block;
+    margin-top: -20px;
+    margin-left: auto;
+    background: #95b226;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border-radius: 3.1rem;
+    position: relative;
+    top: -1.2rem;
+    left: 1rem;
+}
+.scl3
+     {
+        display: inline-block;
+        margin-top: -20px;
+        margin-left: auto;
+        background: #5d58f0;
+        color: white;
+        padding: 0.7rem 1.2rem;
+        border-radius: 3.1rem;
+        position: relative;
+        top: -1.2rem;
+        left: 1rem;
+}
+.scl4{
+    display: inline-block;
+    margin-top: -20px;
+    margin-left: auto;
+    background: #95b226;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border-radius: 3.1rem;
+    position: relative;
+    top: -1.2rem;
+    left: 1rem;
+}
+.scl5{
+    display: inline-block;
+    margin-top: -20px;
+    margin-left: auto;
+    background: #95b226;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border-radius: 3.1rem;
+    position: relative;
+    top: -1.2rem;
+    left: 1rem;
+}
+.bta{
+    margin-bottom: 100px;
+    text-align: center;
+}
 @media screen and (max-width:576px){
     .story1{
         display: none;
@@ -319,9 +394,13 @@ display: inline-block;
         ;
     }
     .stories{
+       
         gap: 2px;
+        
     }
-
+.bta{
+   margin-top: 0px;
+}
 }
 
 /* Footer */
